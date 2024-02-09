@@ -1,0 +1,114 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "title": "Menu desktop",
+        "children": [
+            "menu-item#departament",
+            "menu-item#departament",
+            "menu-item#departament",
+            "menu-item#departament"
+        ]
+    },
+    "menu-item#departament": {
+        "title": "Menu item departament desktop",
+        "props": {
+            "id": "menu-item-departament",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "departament",
+                "text": "DEPARTAMENTO"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#category"
+        ]
+    },
+    "vtex.menu@2.x:submenu#category": {
+        "title": "Submenu category desktop",
+        "children": [
+            "vtex.menu@2.x:menu#sub__menu--category"
+        ]
+    },
+    "vtex.menu@2.x:menu#sub__menu--category": {
+        "title": "Menu category desktop",
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category"
+        ]
+    },
+    "menu-item#category": {
+        "title": "Menu item category desktop",
+        "props": {
+            "id": "menu-item-category",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "category",
+                "text": "CATEGORIA"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#sub__category"
+        ]
+    },
+    "vtex.menu@2.x:submenu#sub__category": {
+        "title": "Submenu ´sub category desktop",
+        "children": [
+            "vtex.menu@2.x:menu#sub__category"
+        ]
+    },
+    "vtex.menu@2.x:menu#sub__category": {
+        "title": "Menu sub category desktop",
+        "children": [
+            "menu-item#sub__category",
+            "menu-item#sub__category-apparel"
+        ]
+    },
+    "menu-item#sub__category": {
+        "title": "Menu item sub category desktop",
+        "props": {
+            "id": "menu-item-sub-category",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "sub__category",
+                "text": "SUB - CATEGORIA"
+            },
+            "iconProps": {
+                "id": "bnd-logo",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconToTheRight": true
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "store.custom#formacion": {
+        "title": "Global formacion page static",
+        "children": [
+            "flex-layout.row#page__formacion"
+        ]
+    }
+}

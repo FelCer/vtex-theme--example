@@ -1,0 +1,34 @@
+{
+    "product-summary.shelf#demo1": {
+        "title": "Global product summary demo1",
+        "children": [
+            "product-summary-image",
+            "stack-layout",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    },
+    "list-context.product-list#demo1": {
+        "title": "Global list context product",
+        "blocks": [
+            "product-summary.shelf#demo1"
+        ],
+        "children": [
+            "slider-layout#demo-products"
+        ]
+    },
+    "slider-layout#demo-products": {
+        "title": "Slider home demo products",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 4,
+                "phone": 2
+            },
+            "infinite": true
+        }
+    }
+}

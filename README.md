@@ -1,1 +1,0 @@
-# vtex-theme--example

@@ -1,0 +1,16 @@
+{
+    "header": {
+        "title": "Global header",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "title": "Global header full",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    }
+}

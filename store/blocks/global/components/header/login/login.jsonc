@@ -1,0 +1,14 @@
+{
+    "login": {
+        "title": "Global login",
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Código para la formación",
+            "emailPlaceholder": "Soy un placeholder en formación POPUP",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "logInButtonBehavior": "link",
+            "accountOptionsButtonBehavior": "link"
+        }
+    }
+}

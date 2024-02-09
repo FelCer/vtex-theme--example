@@ -1,0 +1,42 @@
+{
+  "store.orderplaced": {
+    "title": "Global order placed",
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "title": "Global account",
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "title": "Global store login",
+    "blocks": ["login-content#default"]
+  },
+
+  "login-content#default": {
+    "title": "Global login content",
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "product-summary.shelf": {
+    "title": "Global product summary default",
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
+  }
+}

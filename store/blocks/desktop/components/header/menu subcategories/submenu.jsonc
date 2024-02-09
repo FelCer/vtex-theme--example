@@ -1,0 +1,89 @@
+{
+    "menu-item#category-apparel": {
+        "title": "Menu item of category apparel desktop",
+        "props": {
+            "id": "menu-item-category-apparel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/apparel---accessories/",
+                "noFollow": false,
+                "tagTitle": "Apparel & Accessories",
+                "text": "Apparel & Accessories"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#category-apparel"
+        ]
+    },
+    "vtex.menu@2.x:submenu#category-apparel": {
+        "title": "Sub menu item of category apparel desktop",
+        "props": {
+            "width": "auto"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-apparel"
+        ]
+    },
+    "vtex.menu@2.x:menu#category-apparel": {
+        "title": "Menu item of category apparel desktop",
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category-apparel-clothing",
+            "menu-item#category-apparel-accessories",
+            "menu-item#category-apparel-eyeglasses"
+        ]
+    },
+    "menu-item#category-apparel-clothing": {
+        "title": "Menu item of category desktop",
+        "props": {
+            "id": "menu-item-category-apparel-clothing",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/apparel---accessories/clothing/",
+                "noFollow": false,
+                "tagTitle": "Clothing",
+                "text": "Clothing"
+            }
+        }
+    },
+    "menu-item#category-apparel-accessories": {
+        "title": "Menu item of category desktop",
+        "props": {
+            "id": "menu-item-category-apparel-accessories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/apparel---accessories/accessories/",
+                "noFollow": false,
+                "tagTitle": "Accessories",
+                "text": "Accessories"
+            }
+        }
+    },
+    "menu-item#category-apparel-eyeglasses": {
+        "title": "Menu item of category desktop",
+        "props": {
+            "id": "menu-item-category-apparel-eyeglasses",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/apparel---accessories/eyeglasses/",
+                "noFollow": false,
+                "tagTitle": "Eyeglasses",
+                "text": "Eyeglasses"
+            }
+        }
+    }
+}

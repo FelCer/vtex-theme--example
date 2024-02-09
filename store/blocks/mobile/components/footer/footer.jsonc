@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#footer-mobile": {
+        "title": "Mobile row Footer",
+        "children": [
+            "flex-layout.col#footer-mobile"
+        ]
+    },
+    "flex-layout.col#footer-mobile": {
+        "title": "Mobile row Footer",
+        "children": [
+            "flex-layout.row#footer__example--discloure--mobile",
+            "flex-layout.row#footer__social--networks--mobile",
+            "flex-layout.row#footer__payments--methods--mobile",
+            "flex-layout.row#footer__powered--by--mobile"
+        ]
+    },
+    "flex-layout.row#footer__example--discloure--mobile": {
+        "title": "Row social networks",
+        "children": [
+            "disclosure-layout#simple"
+        ]
+    },
+    "flex-layout.row#footer__social--networks--mobile": {
+        "title": "Row social networks",
+        "children": [
+            "social-networks"
+        ]
+    },
+    "flex-layout.row#footer__payments--methods--mobile": {
+        "title": "Row Payments methods",
+        "children": [
+            "accepted-payment-methods"
+        ]
+    },
+    "flex-layout.row#footer__powered--by--mobile": {
+        "title": "Row powered by",
+        "children": [
+            "accepted-payment-methods"
+            // "powered-by"
+        ]
+    },
+    "disclosure-layout#simple": {
+        "title": "",
+        "children": [
+            "disclosure-trigger#simple",
+            "disclosure-content#simple"
+        ]
+    },
+    "disclosure-trigger#simple": {
+        "title": "",
+        "children": [
+            "rich-text#question"
+        ]
+    },
+    "disclosure-content#simple": {
+        "title": "",
+        "children": [
+            "rich-text#answer"
+        ]
+    },
+    "rich-text#question": {
+        "title": "",
+        "props": {
+            "text": "How can I change my shipping address?"
+        }
+    },
+    "rich-text#answer": {
+        "title": "",
+        "props": {
+            "text": "Call us at (212) 123-1234"
+        }
+    }
+}

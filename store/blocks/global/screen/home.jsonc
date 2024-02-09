@@ -1,0 +1,16 @@
+{
+  "store.home": {
+    "title": "Global home",
+    "blocks": [
+      "modal-trigger#example",
+      "flex-layout.row#text__one--home",
+      "list-context.image-list#demo",
+      "slider-layout#text-test",
+      "responsive-layout.desktop#home__section--1",
+      "responsive-layout.tablet#tablet__home__section--1",
+      "responsive-layout.phone#home__section--1",
+      "responsive-layout.mobile#mobile__home__section--1",
+      "list-context.product-list#demo1"
+    ]
+  }
+}

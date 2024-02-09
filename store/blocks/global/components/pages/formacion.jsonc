@@ -1,0 +1,84 @@
+{
+    "flex-layout.row#page__formacion": {
+        "title": "Row Page formacion",
+        "children": [
+            "flex-layout.col#page__formacion"
+        ]
+    },
+    "flex-layout.col#page__formacion": {
+        "title": "Col Page formacion",
+        "children": [
+            "flex-layout.row#page__formacion--text",
+            "flex-layout.row#page__formacion--products"
+        ]
+    },
+    "flex-layout.row#page__formacion--text": {
+        "title": "Row Page formacion",
+        "children": [
+            "rich-text#page__formacion"
+        ]
+    },
+    "rich-text#page__formacion": {
+        "title": "Text page formacion",
+        "props": {
+            "text": "Estoy en una pagina estatica"
+        }
+    },
+    "flex-layout.row#page__formacion--products": {
+        "title": "Row products",
+        "children": [
+            "search-result-layout.customQuery#page__formacion--results"
+        ]
+    },
+    "search-result-layout.customQuery#page__formacion--results": {
+        "title": "Search query page static",
+        "props": {
+            "querySchema": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "skip"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#page__formacion--results",
+            "search-result-layout.mobile#page__formacion--results",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#page__formacion--results": {
+        "title": "Search result desktop page static",
+        "children": [
+            "flex-layout.row#page__formacion--results"
+        ]
+    },
+    "search-result-layout.mobile#page__formacion--results": {
+        "title": "Search result mobile page static",
+        "children": [
+            "flex-layout.row#page__formacion--results"
+        ]
+    },
+    "flex-layout.row#page__formacion--results": {
+        "title": "Row results page static",
+        "children": [
+            "flex-layout.col#page__formacion--results"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#page__formacion--results": {
+        "title": "Col results page static",
+        "children": [
+            "search-content#page__formacion-results"
+        ],
+        "props": {}
+    },
+    "search-content#page__formacion-results": {
+        "title": "Search content page static",
+        "blocks": [
+            "gallery#page__formacion--result",
+            "not-found"
+        ]
+    },
+    "gallery#page__formacion--result": {
+        "title": "Gallery page static",
+        "blocks": ["product-summary.shelf"]
+    }
+}
