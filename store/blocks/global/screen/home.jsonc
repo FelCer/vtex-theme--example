@@ -2,6 +2,10 @@
   "store.home": {
     "title": "Global home",
     "blocks": [
+      "pdf-reader",
+      "department-search",
+      "list-context.bullet-group",
+      "whatsapp-button",
       "modal-trigger#example",
       "flex-layout.row#text__one--home",
       "list-context.image-list#demo",

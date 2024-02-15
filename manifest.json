@@ -51,7 +51,11 @@
     "vtex.breadcrumb": "1.x",
     "vtex.modal-layout": "0.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "itglobers.whatsapp-button": "0.x",
+    "itglobers.bullets-group": "0.x",
+    "itglobers.custom-departament-search": "0.x",
+    "itglobers.pdf-reader": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

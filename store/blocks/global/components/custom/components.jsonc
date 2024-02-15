@@ -1,0 +1,97 @@
+{
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/logo__whatsapp.png",
+      "phone": "3202587896",
+      "message": "Estamos desde el tema base",
+      "width": 80,
+      "height": 80
+    }
+  },
+  "list-context.bullet-group": {
+    "title": "Contexto de lista de bullets",
+    "props": {
+      "bullets": [
+        {
+          "imagen": "assets/img/computadores.png",
+          "title": "Computadores",
+          "link": {
+            "url": "/aseo"
+          }
+        },
+        {
+          "imagen": "assets/img/camisa.png",
+          "title": "Camisa",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "imagen": "assets/img/computadores.png",
+          "title": "Computadores",
+          "link": {
+            "url": "/aseo"
+          }
+        },
+        {
+          "imagen": "assets/img/camisa.png",
+          "title": "Camisa",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "imagen": "assets/img/computadores.png",
+          "title": "Computadores",
+          "link": {
+            "url": "/aseo"
+          }
+        },
+        {
+          "imagen": "assets/img/camisa.png",
+          "title": "Camisa",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "imagen": "assets/img/computadores.png",
+          "title": "Computadores",
+          "link": {
+            "url": "/aseo"
+          }
+        },
+        {
+          "imagen": "assets/img/camisa.png",
+          "title": "Camisa",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#bullets__group"
+    ]
+  },
+  "slider-layout#bullets__group": {
+    "title": "Slider de bullets group",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite": true
+    }
+  },
+
+  "pdf-reader": {
+    "title": "Este es el PDF",
+    "props": {
+      "url": "assets/documents/lorem-ipsum.pdf",
+      "height": 800,
+      "width": 500
+    }
+  }
+}
