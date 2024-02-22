@@ -2,6 +2,7 @@
   "store.home": {
     "title": "Global home",
     "blocks": [
+      "grid",
       "quick-order",
       "pdf-reader",
       "department-search",
